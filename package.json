@@ -1,0 +1,27 @@
+{
+  "name": "css-in-js-styles-utils",
+  "version": "0.0.1",
+  "description": "Utils for Styled Components (packages: `styled-components`, `@emotion`, `linaria` etc.).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/furdzik/css-in-js-styles-utils.git"
+  },
+  "keywords": [
+    "css-in-js",
+    "utils",
+    "mixins",
+    "styled-components",
+    "emotion",
+    "linaria"
+  ],
+  "author": "Izabela Furdzik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/furdzik/css-in-js-styles-utils/issues"
+  },
+  "homepage": "https://github.com/furdzik/css-in-js-styles-utils#readme"
+}
