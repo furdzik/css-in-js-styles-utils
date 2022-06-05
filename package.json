@@ -35,7 +35,9 @@
     "@furdzik/eslint-config": "0.0.23",
     "@furdzik/stylelint-config": "0.0.18",
     "editorconfig": "0.15.3",
-    "husky": "8.0.1"
+    "husky": "8.0.1",
+    "stylelint": "14.8.5",
+    "stylelint-processor-styled-components": "1.10.0"
   },
   "dependencies": {
     "@emotion/react": "11.9.0",
