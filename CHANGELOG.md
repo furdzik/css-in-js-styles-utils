@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/furdzik/css-in-js-styles-utils/compare/v1.0.0...v1.1.0) (2022-06-05)
+
+
+### Features
+
+* Add normalize styles ([e46184a](https://github.com/furdzik/css-in-js-styles-utils/commit/e46184af4908c39404ef0bc7a4a0d0e4c5a12d3a))
+
 ## 1.0.0 (2022-06-05)
 
 
