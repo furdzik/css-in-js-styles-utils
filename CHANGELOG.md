@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/furdzik/css-in-js-styles-utils/compare/v1.1.0...v1.1.1) (2022-06-05)
+
+
+### Bug Fixes
+
+* Linters action's config ([029db4a](https://github.com/furdzik/css-in-js-styles-utils/commit/029db4a0a0448bc7b83876ba391802a1aa44bfb0))
+
 ## [1.1.0](https://github.com/furdzik/css-in-js-styles-utils/compare/v1.0.0...v1.1.0) (2022-06-05)
 
 
