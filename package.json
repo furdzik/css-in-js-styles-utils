@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/furdzik/css-in-js-styles-utils/issues"
   },
-  "homepage": "https://github.com/furdzik/css-in-js-styles-utils#readme"
+  "homepage": "https://github.com/furdzik/css-in-js-styles-utils#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
