@@ -4,7 +4,9 @@
   "description": "Utils for Styled Components (packages: `styled-components`, `@emotion`, `linaria` etc.).",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint --ext .js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "husky:prepare": "husky intall"
   },
   "repository": {
     "type": "git",
@@ -26,5 +28,11 @@
   "homepage": "https://github.com/furdzik/css-in-js-styles-utils#readme",
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "@furdzik/commitlint-config": "0.0.18",
+    "@furdzik/eslint-config": "0.0.23",
+    "editorconfig": "0.15.3",
+    "husky": "8.0.1"
   }
 }
