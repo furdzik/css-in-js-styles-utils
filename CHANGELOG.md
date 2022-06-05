@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.3.0](https://github.com/furdzik/css-in-js-styles-utils/compare/v1.2.0...v1.3.0) (2022-06-05)
+
+
+### Features
+
+* Add code quality github action ([ed44677](https://github.com/furdzik/css-in-js-styles-utils/commit/ed44677c5ef9a66e5ab3a67b58506b473c2eb187))
+
+
+### Bug Fixes
+
+* Add missing peer deps packages ([ee52a45](https://github.com/furdzik/css-in-js-styles-utils/commit/ee52a458bfe61caecd1b976243519235573fb136))
+* Change linter config packages names ([21fccc3](https://github.com/furdzik/css-in-js-styles-utils/commit/21fccc3c5f75cf6d7a3a056f164096e61178f9a8))
+* cs fixes ([a5a3773](https://github.com/furdzik/css-in-js-styles-utils/commit/a5a3773f6e9349fa7e501d7263fc24a19c7c64a8))
+
 ## [1.2.0](https://github.com/furdzik/css-in-js-styles-utils/compare/v1.1.1...v1.2.0) (2022-06-05)
 
 
