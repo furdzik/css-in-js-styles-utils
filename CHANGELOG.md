@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/furdzik/css-in-js-styles-utils/compare/v1.1.1...v1.2.0) (2022-06-05)
+
+
+### Features
+
+* Add publish script ([a25857c](https://github.com/furdzik/css-in-js-styles-utils/commit/a25857caca7991d5f70837eaff4272b86c23d3a2))
+
 ## [1.1.1](https://github.com/furdzik/css-in-js-styles-utils/compare/v1.1.0...v1.1.1) (2022-06-05)
 
 
