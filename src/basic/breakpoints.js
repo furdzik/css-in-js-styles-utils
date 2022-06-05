@@ -5,7 +5,6 @@ export const breakpoints = {
   portraitTablet: '768px',
   landscapeTablet: '840px',
   laptop: '1024px',
-  containerWidth: '1170px',
   desktop: '1280px',
   hdDesktop: '1366px',
   fhdDesktop: '1920px'
