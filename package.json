@@ -4,8 +4,10 @@
   "description": "Utils for Styled Components (packages: `styled-components`, `@emotion`, `linaria` etc.).",
   "main": "src/index.js",
   "scripts": {
-    "lint": "eslint --ext .js && npx stylelint \"**/*.styles.js\"",
+    "lint": "npm run eslint && npm run stylelint",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint --ext .js",
+    "stylelint": "npx stylelint \"**/*.styles.js\"",
     "publish": "npm publish",
     "husky:prepare": "husky intall"
   },
@@ -31,11 +33,16 @@
     "access": "public"
   },
   "devDependencies": {
-    "@furdzik/commitlint-config": "0.0.18",
-    "@furdzik/eslint-config": "0.0.23",
-    "@furdzik/stylelint-config": "0.0.18",
+    "commitlint": "17.0.2",
+    "commitlint-config-kamisama": "0.3.1",
     "editorconfig": "0.15.3",
-    "husky": "8.0.1"
+    "eslint": "8.17.0",
+    "eslint-config-kamisama": "0.3.1",
+    "eslint-import-resolver-babel-module": "5.3.1",
+    "husky": "8.0.1",
+    "stylelint": "14.8.5",
+    "stylelint-config-kamisama": "0.3.1",
+    "stylelint-processor-styled-components": "1.10.0"
   },
   "dependencies": {
     "@emotion/react": "11.9.0",

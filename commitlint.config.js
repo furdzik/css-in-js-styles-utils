@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["@furdzik/commitlint-config"]
+  extends: ["kamisama"]
 };
