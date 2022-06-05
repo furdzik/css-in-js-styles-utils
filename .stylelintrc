@@ -1,0 +1,8 @@
+{
+  "processors": [
+    "stylelint-processor-styled-components"
+  ],
+  "extends": [
+    "@furdzik/stylelint-config"
+  ]
+}

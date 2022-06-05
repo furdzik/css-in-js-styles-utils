@@ -2,9 +2,9 @@
   "name": "css-in-js-styles-utils",
   "version": "0.0.1",
   "description": "Utils for Styled Components (packages: `styled-components`, `@emotion`, `linaria` etc.).",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "lint": "eslint --ext .js",
+    "lint": "eslint --ext .js && npx stylelint \"**/*.styles.js\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "husky:prepare": "husky intall"
   },
@@ -32,7 +32,12 @@
   "devDependencies": {
     "@furdzik/commitlint-config": "0.0.18",
     "@furdzik/eslint-config": "0.0.23",
+    "@furdzik/stylelint-config": "0.0.18",
     "editorconfig": "0.15.3",
     "husky": "8.0.1"
+  },
+  "dependencies": {
+    "@emotion/react": "11.9.0",
+    "lodash": "4.17.21"
   }
 }
