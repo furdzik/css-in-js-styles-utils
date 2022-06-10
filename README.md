@@ -221,23 +221,24 @@ const GlobalStyles = css`
 
 ### Breakpoint hook for React
 
-If you don't want to render some component when in mobile:
+If you don't want to render some component when in mobile use `useBreakpoint` hook.
 
 ```js
 import { useBreakpoint, breakpoints }  from 'css-in-js-styles-utils';
 
 const SomeComponent = (props) => {
-  const isDesktop = useBreakpoint(breakpoints.laptop);
+  // return true if window inner width is smaller or equle of provided breakpoint
+  const isMobile = useBreakpoint(breakpoints.phone);
   
   return (
-    <div>
-      This I want to show alway, but
+    <React.Fragment>
+      <div>This I want to show alway.</div>
       {
-        isDesktop ? (
-          <div>This ony on desktops</div>
+        isMobile ? (
+          <div>But this ony on mobile.</div>
         ) : null
       }
-    </div>
+    </React.Fragment>
   );
 };
 ```
