@@ -11,8 +11,6 @@ Utils for Styled Components (packages: `styled-components`, `@emotion`, `linaria
 2. [Licence](#licence)
 3. [Contributing](#contributing)
 
----
-
 # Installation and usage
 
 Step 1:
@@ -24,8 +22,6 @@ npm i css-in-js-styles-utils
 Step 2:
 
 Import whatever function you need. See description below.
-
----
 
 ## `css-in-js` normalize and reset
 
@@ -170,7 +166,7 @@ const ButtonWrapper = styled.div`
 
 ### Change HEX color to RGB (with transparency)
 
-#### arguments:
+**Arguments:**
 
 - **hex** - is required, e.g. `#000000` (you need to provide a 6 digit hex color)
 - **alpha** - is optional - use if you want to have hex color with opacity
@@ -184,7 +180,7 @@ const ButtonWrapper = styled.div`
 ```
 ### FontFace mixin
 
-#### Arguments:
+**Arguments:**
 - familyName
 - src - object with woff, ttf and svg paths
 - weight - default: 'normal'
@@ -243,19 +239,13 @@ const SomeComponent = (props) => {
 };
 ```
 
----
-
 ## Licence
 
 This project uses [MIT Licence](LICENSE)
 
----
-
 ## Contributing
 
 If you want to contribute read the [contributing guidelines]() before opening an issue or pull request [WIP].
-
----
 
 ## Style guide
 
