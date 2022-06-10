@@ -1,3 +1,4 @@
+import { breakpoints } from './basic/breakpoints';
 import { useBreakpoint } from './utils';
 import {
   breakpointMinWidthMixin,
@@ -11,6 +12,7 @@ import {
 } from './styles';
 
 export {
+  breakpoints,
   breakpointMinWidthMixin,
   breakpointMaxWidthMixin,
   hexToRgbMixin,
