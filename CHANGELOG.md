@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.4.0](https://github.com/furdzik/css-in-js-styles-utils/compare/v1.3.0...v1.4.0) (2022-06-10)
+
+
+### Features
+
+* Update readme file ([8faef44](https://github.com/furdzik/css-in-js-styles-utils/commit/8faef448c79ff0e2a80b4233f23b0386691d281b))
+* Update useBreakpoint hook ([7d84c3c](https://github.com/furdzik/css-in-js-styles-utils/commit/7d84c3cf15f326ffc84d0226b80d83a84d64fa81))
+
 ## [1.3.0](https://github.com/furdzik/css-in-js-styles-utils/compare/v1.2.0...v1.3.0) (2022-06-05)
 
 
