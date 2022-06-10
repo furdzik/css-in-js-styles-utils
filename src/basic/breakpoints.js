@@ -1,11 +1,13 @@
 export const breakpoints = {
+  smallPhone: '320px',
   portraitPhone: '360px',
   landscapePhone: '480px',
-  phablet: '600px',
+  smallTablet: '600px',
   portraitTablet: '768px',
   landscapeTablet: '840px',
-  laptop: '1024px',
-  desktop: '1280px',
-  hdDesktop: '1366px',
+  smallLaptop: '1024px',
+  laptop: '1280px',
+  desktop: '1366px',
+  hdDesktop: '1440px',
   fhdDesktop: '1920px'
 };

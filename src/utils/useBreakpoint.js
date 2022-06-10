@@ -1,13 +1,13 @@
 import _throttle from 'lodash/throttle';
 
 export const useBreakpoint = (breakpoint) => {
-  let isPortrait = window.innerWidth <= breakpoint;
+  let isBreakpoint = window.innerWidth <= breakpoint;
 
-  const calculateIsPortrait = _throttle(() => {
-    isPortrait = window.innerWidth <= breakpoint;
+  const calculateIsBreakpoint = _throttle(() => {
+    isBreakpoint = window.innerWidth <= breakpoint;
   }, 500);
 
-  window.addEventListener('resize', calculateIsPortrait);
+  window.addEventListener('resize', calculateIsBreakpoint);
 
-  return isPortrait;
+  return isBreakpoint;
 };
