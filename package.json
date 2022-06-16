@@ -4,6 +4,10 @@
   "description": "Utils for Styled Components (packages: `styled-components`, `@emotion`, `linaria` etc.)",
   "main": "dist/index.js",
   "module": "dist/index.js",
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "build": "webpack --env production",
     "lint": "npm run eslint && npm run stylelint",
