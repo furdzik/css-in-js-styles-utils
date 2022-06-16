@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.2](https://github.com/furdzik/css-in-js-styles-utils/compare/v1.4.1...v1.4.2) (2022-06-16)
+
+
+### Bug Fixes
+
+* make npm to publish only dist and src folders ([e212bcc](https://github.com/furdzik/css-in-js-styles-utils/commit/e212bccd7fcbe5e76b599d6aef337fbc2227f61f))
+
 ## [1.4.1](https://github.com/furdzik/css-in-js-styles-utils/compare/v1.4.0...v1.4.1) (2022-06-16)
 
 
