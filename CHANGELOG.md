@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.4.1](https://github.com/furdzik/css-in-js-styles-utils/compare/v1.4.0...v1.4.1) (2022-06-16)
+
+
+### Bug Fixes
+
+* add module to package json ([fb898dc](https://github.com/furdzik/css-in-js-styles-utils/commit/fb898dc306bbc51e05eb0d19c08e8af494ab20e9))
+* add webpack to compile package ([ed6bdfb](https://github.com/furdzik/css-in-js-styles-utils/commit/ed6bdfb9e7fa6d30a4025cc86af4035c24a6c868))
+* some fixes ([f68953d](https://github.com/furdzik/css-in-js-styles-utils/commit/f68953d4201ad86294a915767782a8d5907946f3))
+* update package lock ([578664e](https://github.com/furdzik/css-in-js-styles-utils/commit/578664e79d0c2df66d2ac436163764b54665020d))
+
 ## [1.4.0](https://github.com/furdzik/css-in-js-styles-utils/compare/v1.3.0...v1.4.0) (2022-06-10)
 
 
