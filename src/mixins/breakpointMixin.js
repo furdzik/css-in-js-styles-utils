@@ -11,14 +11,12 @@ export const breakpointMinWidthMixin = (acc, current, breakpoints) => {
 };
 
 
-// export const breakpointMaxWidthMixin = Object
-//   .keys(breakpoints)
-//   .reduce((acc, current) => {
-//   acc[current] = (...args) => css`
-//     @media (max-width: ${breakpoints[current] - 1}) {
-//       ${css(...args)};
-//     }
-//   `;
-//
-//   return acc;
-// }, {});
+export const breakpointMaxWidthMixin = (acc, current, breakpoints) => {
+  acc[current] = (...args) => css`
+    @media (max-width: ${breakpoints[current]}) {
+      ${css(...args)};
+    }
+  `;
+
+  return acc;
+};
