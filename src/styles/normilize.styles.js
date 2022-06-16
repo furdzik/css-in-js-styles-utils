@@ -69,7 +69,7 @@ const NormalizeStyles = css`
     }
 
     &:-webkit-autofill {
-      box-shadow: 0 0 0 1000px ${colors.colorMono.white} inset;
+      box-shadow: 0 0 0 1000px #ffffff inset;
     }
 
     &:required {

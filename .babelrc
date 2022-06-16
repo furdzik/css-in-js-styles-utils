@@ -5,14 +5,5 @@
       "useBuiltIns": "entry",
       "corejs": 3
     }]
-  ],
-  "plugins": [
-    ["module-resolver", {
-      "root": "./src",
-      "alias": {
-        "@root": "./src",
-        "@events": "./src/events"
-      }
-    }]
   ]
 }
