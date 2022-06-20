@@ -93,9 +93,9 @@ const NormalizeStyles = (
   }
 
   a {
+    color: inherit;
     text-decoration: none;
     cursor: pointer;
-    color: inherit;
     &:hover {
       text-decoration: underline;
     }
