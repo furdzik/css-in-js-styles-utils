@@ -2,17 +2,18 @@ import { css } from '@emotion/react';
 
 import { typography } from '../basic/typography';
 
-const NormalizeStyles = (
-  fontSize = typography.fontSize.normal,
-  lineHeight = typography.lineHeight.normal,
-  baseFontSize = typography.fontSize.base
-) => css`
+const NormalizeStyles = ({
+ fontSize = typography.fontSize.normal,
+ lineHeight = typography.lineHeight.normal,
+ base = typography.fontSize.base
+}) => css`
   html {
     box-sizing: border-box;
     overflow-x: hidden;
     overflow-y: scroll;
     height: 100%;
-    font-size: ${baseFontSize};
+    background: red;
+    font-size: ${base || typography.fontSize.base};
   }
 
   *,
@@ -23,8 +24,8 @@ const NormalizeStyles = (
 
   body {
     height: 100%;
-    font-size: ${fontSize};
-    line-height: ${lineHeight};
+    font-size: ${fontSize || typography.fontSize.normal};
+    line-height: ${lineHeight || typography.lineHeight.normal};
   }
 
   body,
