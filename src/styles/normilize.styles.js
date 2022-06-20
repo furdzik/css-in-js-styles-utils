@@ -2,13 +2,17 @@ import { css } from '@emotion/react';
 
 import { typography } from '../basic/typography';
 
-const NormalizeStyles = css`
+const NormalizeStyles = (
+  fontSize = typography.fontSize.normal,
+  lineHeight = typography.lineHeight.normal,
+  baseFontSize = typography.fontSize.base
+) => css`
   html {
     box-sizing: border-box;
     overflow-x: hidden;
     overflow-y: scroll;
     height: 100%;
-    font-size: ${typography.fontSize.base};
+    font-size: ${baseFontSize};
   }
 
   *,
@@ -19,8 +23,8 @@ const NormalizeStyles = css`
 
   body {
     height: 100%;
-    font-size: ${typography.fontSize.normal};
-    line-height: ${typography.lineHeight.normal};
+    font-size: ${fontSize};
+    line-height: ${lineHeight};
   }
 
   body,
@@ -89,8 +93,12 @@ const NormalizeStyles = css`
   }
 
   a {
+    color: inherit;
     text-decoration: none;
     cursor: pointer;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 `;
 
