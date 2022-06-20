@@ -24,7 +24,6 @@ module.exports = () => ({
     })
   ],
   output: {
-    libraryTarget: 'umd',
     umdNamedDefine: true,
     library: 'index',
     filename: 'index.js',
