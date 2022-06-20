@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.3](https://github.com/furdzik/css-in-js-styles-utils/compare/v1.4.2...v1.4.3) (2022-06-20)
+
+
+### Bug Fixes
+
+* Add configuration for own `font-size` on body and html and `line-height` ([1e9ac96](https://github.com/furdzik/css-in-js-styles-utils/commit/1e9ac96f700dd24a4345ea7928b43867f7f0b38f))
+
 ## [1.4.2](https://github.com/furdzik/css-in-js-styles-utils/compare/v1.4.1...v1.4.2) (2022-06-16)
 
 
