@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/furdzik/css-in-js-styles-utils/compare/v1.5.0...v1.5.1) (2022-07-16)
+
+
+### Bug Fixes
+
+* **build:** webpack build ([6b20d73](https://github.com/furdzik/css-in-js-styles-utils/commit/6b20d73b3eda7432737c4b6e27c259d30bb9f07a))
+
 ## [1.5.0](https://github.com/furdzik/css-in-js-styles-utils/compare/v1.4.3...v1.5.0) (2022-07-16)
 
 
