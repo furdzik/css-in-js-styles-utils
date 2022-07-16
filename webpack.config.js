@@ -24,9 +24,12 @@ module.exports = () => ({
     })
   ],
   output: {
-    umdNamedDefine: true,
-    library: 'index',
+    globalObject: 'this',
     filename: 'index.js',
-    globalObject: 'this'
+    library: {
+      name: 'css-in-js-styles-utils',
+      type: 'umd',
+      umdNamedDefine: true
+    }
   }
 });

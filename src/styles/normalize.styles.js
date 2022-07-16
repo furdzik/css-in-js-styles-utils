@@ -3,9 +3,9 @@ import { css } from '@emotion/react';
 import { typography } from '../basic/typography';
 
 const NormalizeStyles = ({
- fontSize = typography.fontSize.normal,
- lineHeight = typography.lineHeight.normal,
- base = typography.fontSize.base
+  fontSize = typography.fontSize.normal,
+  lineHeight = typography.lineHeight.normal,
+  base = typography.fontSize.base
 }) => css`
   html {
     box-sizing: border-box;
