@@ -1,6 +1,6 @@
 {
   "name": "css-in-js-styles-utils",
-  "version": "1.6.4",
+  "version": "1.6.5",
   "description": "Utils for Styled Components (packages: `styled-components`, `@emotion`, `linaria` etc.)",
   "main": "dist/index.js",
   "module": "dist/index.js",
