@@ -104,6 +104,19 @@ import { breakpoints } from 'css-in-js-styles-utils';
 |           hdDesktop | 1440px |
 |          fhdDesktop | 1920px |
 
+#### Default breakpoints height values:
+
+| Breakpoint name | Value  |
+|----------------:|:------:|
+|      smallPhone | 320px  |
+|  landscapePhone | 360px  |
+|   portraitPhone | 480px  |
+|     smallLaptop | 600px  |
+|          laptop | 768px  |
+|         desktop | 840px  |
+|       hdDesktop | 920px  |
+|      fhdDesktop | 1280px |
+
 ### Use with mixins
 
 1. Create style mixin:
@@ -134,6 +147,8 @@ import { breakpoints } from 'css-in-js-styles-utils';
       `)};
     `;
     ```
+
+\* with other breakpoint's mixins do the same.
 
 2. Import every time
 
@@ -230,9 +245,9 @@ const GlobalStyles = css`
 
 ## React components utils
 
-### Breakpoint hook for React
+### Breakpoint hooks for React
 
-If you don't want to render some component when in mobile use `useBreakpoint` hook.
+If you don't want to render some component when in mobile use `useBreakpoint` (checking window's `innerWidth`) or `useBreakpointHeight` (checking window's `innerHeight`) hook.
 
 ```js
 import { useBreakpoint, breakpoints }  from 'css-in-js-styles-utils';
@@ -253,6 +268,8 @@ const SomeComponent = (props) => {
   );
 };
 ```
+
+
 
 ## Licence
 

@@ -11,3 +11,15 @@ export const useBreakpoint = (breakpoint) => {
 
   return isBreakpoint;
 };
+
+export const useBreakpointHeight = (breakpoint) => {
+  let isBreakpoint = window.innerHeight <= breakpoint;
+
+  const calculateIsBreakpoint = _throttle(() => {
+    isBreakpoint = window.innerHeight <= breakpoint;
+  }, 500);
+
+  window.addEventListener('resize', calculateIsBreakpoint);
+
+  return isBreakpoint;
+};
