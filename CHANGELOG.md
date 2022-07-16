@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.6.0](https://github.com/furdzik/css-in-js-styles-utils/compare/v1.5.1...v1.6.0) (2022-07-16)
+
+
+### Features
+
+* automated publish ([f757f56](https://github.com/furdzik/css-in-js-styles-utils/commit/f757f56e20242308d5b323deea21739833fbb873))
+* change setap-node action version ([ceeb97c](https://github.com/furdzik/css-in-js-styles-utils/commit/ceeb97cb7ab9b8d275a22dd8eb6b291693854c4f))
+
 ## [1.5.1](https://github.com/furdzik/css-in-js-styles-utils/compare/v1.5.0...v1.5.1) (2022-07-16)
 
 
