@@ -149,11 +149,11 @@ import { breakpoints } from 'css-in-js-styles-utils';
     `;
     ```
 
-\* with other breakpoint's mixins do the same.
+    \* with other breakpoint's mixins do the same.
 
 2. Import every time
 
-@TODO
+    @TODO
 
 ### OPTIONS:
 
