@@ -36,6 +36,7 @@ This is a function witch has some default arguments. You can change it.
 |   lineHeight |      1.5      | line-height on body                    |
 | baseFontSize |    '62.5%'    | font on html (this do 1rem to be 10px) |
 
+
 ```js
 import { css } from '@emotion/react';
 import { NormalizeStyles } from 'css-in-js-styles-utils';
