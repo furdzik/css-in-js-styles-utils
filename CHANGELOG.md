@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/furdzik/css-in-js-styles-utils/compare/v1.4.3...v1.5.0) (2022-07-16)
+
+
+### Features
+
+* **breakpoints:** add height's breakpoints utils and mixins ([3b1cbc5](https://github.com/furdzik/css-in-js-styles-utils/commit/3b1cbc5f487c732cd8b4286cea76a3035eeafb52))
+
 ## [1.4.3](https://github.com/furdzik/css-in-js-styles-utils/compare/v1.4.2...v1.4.3) (2022-06-20)
 
 
