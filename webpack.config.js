@@ -27,7 +27,7 @@ module.exports = () => ({
     globalObject: 'this',
     filename: 'index.js',
     library: {
-      name: 'css-in-js-styles-utils',
+      name: 'index',
       type: 'umd',
       umdNamedDefine: true
     }
