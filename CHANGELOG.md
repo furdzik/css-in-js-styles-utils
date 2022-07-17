@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.6](https://github.com/furdzik/css-in-js-styles-utils/compare/v1.6.5...v1.6.6) (2022-07-17)
+
+
+### Bug Fixes
+
+* update packages ([9ab8d83](https://github.com/furdzik/css-in-js-styles-utils/commit/9ab8d832447922ebc7855f714b5565b67b4ab88c))
+
 ## [1.6.5](https://github.com/furdzik/css-in-js-styles-utils/compare/v1.6.4...v1.6.5) (2022-07-16)
 
 
