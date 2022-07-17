@@ -24,12 +24,9 @@ module.exports = () => ({
     })
   ],
   output: {
-    globalObject: 'this',
+    umdNamedDefine: true,
+    library: 'index',
     filename: 'index.js',
-    library: {
-      name: 'index',
-      type: 'umd',
-      umdNamedDefine: true
-    }
+    globalObject: 'this'
   }
 });
