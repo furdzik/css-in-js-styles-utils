@@ -14,7 +14,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "eslint": "eslint --ext .js",
     "stylelint": "npx stylelint \"**/*.styles.js\"",
-    "publish": "npm publish",
     "husky:prepare": "husky intall"
   },
   "repository": {
