@@ -1,13 +1,13 @@
 {
   "name": "css-in-js-styles-utils",
   "version": "1.6.11",
-  "description": "Utils for Styled Components (packages: `styled-components`, `@emotion`, `linaria` etc.)",
+  "description": "Style's utils for Styled Components (packages: styled-components, emotion, linaria)",
   "main": "dist/index.js",
-  "module": "dist/index.js",
   "files": [
     "dist",
     "src"
   ],
+  "source": "src/index.js",
   "scripts": {
     "build": "webpack --env production",
     "lint": "npm run eslint && npm run stylelint",
