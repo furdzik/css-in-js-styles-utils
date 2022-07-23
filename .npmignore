@@ -1,29 +1,8 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-*.bak
-
-# Coverage and reports directory used by tools like jest
-coverage
-reports/
-
-# Dependency directories
-node_modules/
-
 # env
 .env
 .env.local
 .env.production
 .env.development
-
-# Optional npm cache directory
-.npm
-
-# Builds
-storybook-static/
 
 # IDE / text editor data
 .idea/
