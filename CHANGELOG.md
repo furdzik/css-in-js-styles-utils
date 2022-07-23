@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.14](https://github.com/furdzik/css-in-js-styles-utils/compare/v1.6.13...v1.6.14) (2022-07-23)
+
+
+### Bug Fixes
+
+* change npm ignore file ([7664dbf](https://github.com/furdzik/css-in-js-styles-utils/commit/7664dbf183854803b0776d2679a0285b9c362843))
+
 ## [1.6.13](https://github.com/furdzik/css-in-js-styles-utils/compare/v1.6.12...v1.6.13) (2022-07-17)
 
 
